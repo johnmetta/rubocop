@@ -5,17 +5,13 @@ The more detailed you are, the better.**
 
 Before submitting the PR make sure the following are checked:
 
-* [ ] Wrote [good commit messages][1].
-* [ ] Commit message starts with `[Fix #issue-number]` (if the related issue exists).
-* [ ] Used the same coding conventions as the rest of the project.
+* [ ] Wrote a commit message that makes sense at the time.
+* [ ] Commit message starts with `Probably fixes #issue-number` (if the issue really exists and is not dumb).
+* [ ] Used the coding conventions that you agree with.
+* [ ] Ran at least one test that passed at some point
 * [ ] Feature branch is up-to-date with `master` (if not - rebase it).
-* [ ] Squashed related commits together.
-* [ ] Added tests.
-* [ ] Added an entry to the [Changelog](../blob/master/CHANGELOG.md) if the new code introduces user-observable changes. See [changelog entry format](../blob/master/CONTRIBUTING.md#changelog-entry-format).
-* [ ] All tests are passing.
-* [ ] The new code doesn't generate RuboCop offenses.
-* [ ] The PR relates to *only* one subject with a clear title
-  and description in grammatically correct, complete sentences.
-* [ ] Updated cop documentation with `rake generate_cops_documentation` (required only when you've added a new cop or changed the configuration/documentation of an existing cop).
-
-[1]: http://chris.beams.io/posts/git-commit/
+* [ ] Include at least one commit with message like "bump," "test," "kick the thing and try again," etc.
+* [ ] Reasonably certain the changes wouldn't break anything.
+* [ ] The new code doesn't generate RuboCop messages that you care about.
+* [ ] The PR relates to *only* one issue, but also partially fixes at least one other.
+* [ ] Changes mostly worked on local machine in one browser at least two commits ago
