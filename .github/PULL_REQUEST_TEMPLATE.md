@@ -9,7 +9,7 @@ Before submitting the PR make sure the following are checked:
 * [ ] Commit message starts with `Probably fixes #issue-number` (if the issue really exists and is not dumb).
 * [ ] Used the coding conventions that you agree with.
 * [ ] Ran at least one test that passed at some point
-* [ ] Feature branch is up-to-date with `master` (if not - rebase it).
+* [ ] Feature branch is up-to-date with `master` (if not - rebase master and force).
 * [ ] Include at least one commit with message like "bump," "test," "kick the thing and try again," etc.
 * [ ] Reasonably certain the changes wouldn't break anything.
 * [ ] The new code doesn't generate RuboCop messages that you care about.
